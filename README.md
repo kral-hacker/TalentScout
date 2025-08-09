@@ -33,22 +33,22 @@ The **TalentScout Hiring Assistant Chatbot** is an AI-powered conversational ass
 2. Create and activate a virtual environment:
    ```bash
    python -m venv env
-source env/bin/activate  
-```
+   source env/bin/activate  
+   ```
 3. Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Create a .env file in the project root and add your OpenAI API key:
    ```bash
    OPENAI_API_KEY=your_openai_api_key_here
-```
+   ```
 5. Run the chatbot application:
-```bash
-python core_pipeline.py
-```
+   ```bash
+   python core_pipeline.py
+   ```
 
 ## Usage Guide
 Launch the app and interact via the chat interface.
